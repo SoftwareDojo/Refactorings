@@ -46,10 +46,12 @@
   <ItemGroup>
     <Compile Include="FizzBuzz\Original\FizzBuzzTest.cs" />
     <Compile Include="FizzBuzz\Refactored\FizzBuzzTest.cs" />
+    <Compile Include="GildedRose\Original\GildedRoseTest.cs" />
     <Compile Include="Parrot\Original\ParrotTest.cs" />
     <Compile Include="Parrot\Refactored\ParrotTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tennis\Original\TennisGameTest.cs" />
+    <Compile Include="Yatzy\Original\YatzyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -61,7 +63,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="GildedRose\Refactored\" />
     <Folder Include="Tennis\Refactored\" />
+    <Folder Include="Yatzy\Refactored\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

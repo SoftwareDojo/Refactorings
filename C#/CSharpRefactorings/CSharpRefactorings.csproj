@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="FizzBuzz\Original\FizzBuzz.cs" />
     <Compile Include="FizzBuzz\Refactored\FizzBuzz.cs" />
+    <Compile Include="GildedRose\Original\GildedRose.cs" />
     <Compile Include="Parrot\Original\Parrot.cs" />
     <Compile Include="Parrot\Original\ParrotTypeEnum.cs" />
     <Compile Include="Parrot\Refactored\AfricanParrot.cs" />
@@ -53,9 +54,12 @@
     <Compile Include="Tennis\Original\TennisGame1.cs" />
     <Compile Include="Tennis\Original\TennisGame2.cs" />
     <Compile Include="Tennis\Original\TennisGame3.cs" />
+    <Compile Include="Yatzy\Original\Yatzy.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="GildedRose\Refactored\" />
     <Folder Include="Tennis\Refactored\" />
+    <Folder Include="Yatzy\Refactored\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
