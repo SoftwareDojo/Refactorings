@@ -6,3 +6,5 @@ Refactoring exercises for C#, C++, Python and TypeScript! For more information, 
 * Fizz Buzz
 * Parrot
 * Tennis
+* GildedRose
+* Yatzy
