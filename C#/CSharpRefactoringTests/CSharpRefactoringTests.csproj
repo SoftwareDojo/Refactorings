@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GildedRose\Refactored\" />
+    <Folder Include="Snippets\" />
     <Folder Include="Tennis\Refactored\" />
     <Folder Include="Yatzy\Refactored\" />
   </ItemGroup>

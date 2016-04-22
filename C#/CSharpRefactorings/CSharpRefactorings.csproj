@@ -50,10 +50,17 @@
     <Compile Include="Parrot\Refactored\IParrot.cs" />
     <Compile Include="Parrot\Refactored\NorwegianBlueParrot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snippets\Original\CheckSnippet.cs" />
+    <Compile Include="Snippets\Original\ConstructorSnippet.cs" />
+    <Compile Include="Snippets\Original\IsPrimeNumberSnippet.cs" />
+    <Compile Include="Snippets\Refactored\CheckSnippet.cs" />
+    <Compile Include="Snippets\Refactored\ConstructorSnippet.cs" />
+    <Compile Include="Snippets\Refactored\IsPrimeNumberSnippet.cs" />
     <Compile Include="Tennis\Original\ITennisGame.cs" />
     <Compile Include="Tennis\Original\TennisGame1.cs" />
     <Compile Include="Tennis\Original\TennisGame2.cs" />
     <Compile Include="Tennis\Original\TennisGame3.cs" />
+    <Compile Include="TicTacToe\Original\TicTacToe.cs" />
     <Compile Include="Yatzy\Original\Yatzy.cs" />
   </ItemGroup>
   <ItemGroup>

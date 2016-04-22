@@ -8,3 +8,5 @@ Refactoring exercises for C#, C++, Python and TypeScript! For more information, 
 * Tennis
 * GildedRose
 * Yatzy
+* TicTacToe
+* Snippets
