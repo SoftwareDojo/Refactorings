@@ -52,6 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tennis\Original\TennisGameTest.cs" />
     <Compile Include="Yatzy\Original\YatzyTest.cs" />
+    <Compile Include="Yatzy\Refactored\YatzyScorerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -66,7 +67,6 @@
     <Folder Include="GildedRose\Refactored\" />
     <Folder Include="Snippets\" />
     <Folder Include="Tennis\Refactored\" />
-    <Folder Include="Yatzy\Refactored\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

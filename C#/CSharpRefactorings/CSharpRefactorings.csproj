@@ -62,11 +62,11 @@
     <Compile Include="Tennis\Original\TennisGame3.cs" />
     <Compile Include="TicTacToe\Original\TicTacToe.cs" />
     <Compile Include="Yatzy\Original\Yatzy.cs" />
+    <Compile Include="Yatzy\Refactored\YatzyScorer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GildedRose\Refactored\" />
     <Folder Include="Tennis\Refactored\" />
-    <Folder Include="Yatzy\Refactored\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
