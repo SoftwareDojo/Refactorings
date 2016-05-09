@@ -63,6 +63,7 @@
     <Compile Include="Tennis\Refactored\ITennisGame.cs" />
     <Compile Include="Tennis\Refactored\TennisGame1.cs" />
     <Compile Include="TicTacToe\Original\TicTacToe.cs" />
+    <Compile Include="WordWrap\Original\WordWrap.cs" />
     <Compile Include="Yatzy\Original\Yatzy.cs" />
     <Compile Include="Yatzy\Refactored\YatzyScorer.cs" />
   </ItemGroup>
