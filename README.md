@@ -10,4 +10,6 @@ Refactoring exercises for C#, C++, Python and TypeScript! For more information, 
 * Yatzy
 * TicTacToe
 * WordWrap
+* DiscountManager
+* AlphaNum Comparer
 * Snippets
