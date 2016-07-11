@@ -130,14 +130,14 @@ publish/
 *.pubxml
 *.publishproj
 
-+# NuGet Packages
-+*.nupkg
-+# The packages folder can be ignored because of Package Restore
-+**/packages/*
-+# except build/, which is used as an MSBuild target.
-+!**/packages/build/
-+# Uncomment if necessary however generally it will be regenerated when needed
-+#!**/packages/repositories.config
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
 
 # Windows Azure Build Output
 csx
@@ -220,4 +220,3 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-C#/CSharpKataTests/ABC/ABCProblemTest.cs
