@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using CSharpRefactorings.AlphaNum.Original;
 using NUnit.Framework;
+using NUnit.Framework.Compatibility;
 
 namespace CSharpRefactoringTests.AlphaNum.Original
 {
@@ -18,10 +20,16 @@ namespace CSharpRefactoringTests.AlphaNum.Original
             };
 
             // act
+            var watch = new Stopwatch();
+            watch.Start();
+
             actual.Sort(comparer);
+
+            watch.Stop();
 
             // assert
             Assert.IsTrue(expected.SequenceEqual(actual));
+            Console.WriteLine($"Performance = {watch.ElapsedTicks}");
         }
     }
 }

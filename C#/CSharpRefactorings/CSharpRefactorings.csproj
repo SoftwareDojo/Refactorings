@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlphaNum\Original\AlphaNumAlgorithm.cs" />
+    <Compile Include="AlphaNum\Refactored\AlphaNumAlgorithm.cs" />
+    <Compile Include="AlphaNum\Refactored\AlphaNumericString.cs" />
     <Compile Include="FizzBuzz\Original\FizzBuzz.cs" />
     <Compile Include="FizzBuzz\Refactored\FizzBuzz.cs" />
     <Compile Include="GildedRose\Original\GildedRose.cs" />
@@ -66,12 +68,13 @@
     <Compile Include="Tennis\Refactored\ITennisGame.cs" />
     <Compile Include="Tennis\Refactored\TennisGame1.cs" />
     <Compile Include="TicTacToe\Original\TicTacToe.cs" />
+    <Compile Include="TicTacToe\Refactored\IUserInterface.cs" />
+    <Compile Include="TicTacToe\Refactored\TicTacToe.cs" />
     <Compile Include="WordWrap\Original\WordWrap.cs" />
     <Compile Include="Yatzy\Original\Yatzy.cs" />
     <Compile Include="Yatzy\Refactored\YatzyScorer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="AlphaNum\Refactored\" />
     <Folder Include="GildedRose\Refactored\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

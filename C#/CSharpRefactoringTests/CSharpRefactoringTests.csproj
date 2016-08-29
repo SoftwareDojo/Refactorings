@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlphaNum\Original\AlphaNumAlgorithmTest.cs" />
+    <Compile Include="AlphaNum\Refactored\AlphaNumAlgorithmTest.cs" />
     <Compile Include="DiscountManager\Refactored\DiscountManagerTest.cs" />
     <Compile Include="FizzBuzz\Original\FizzBuzzTest.cs" />
     <Compile Include="FizzBuzz\Refactored\FizzBuzzTest.cs" />
@@ -54,6 +55,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tennis\Original\TennisGameTest.cs" />
     <Compile Include="Tennis\Refactored\TennisGameTest.cs" />
+    <Compile Include="TicTacToe\Refactored\TicTacToeTest.cs" />
+    <Compile Include="TicTacToe\Refactored\UI_Mock.cs" />
     <Compile Include="WordWrap\Original\WordWrapTest.cs" />
     <Compile Include="Yatzy\Original\YatzyTest.cs" />
     <Compile Include="Yatzy\Refactored\YatzyScorerTest.cs" />
@@ -68,7 +71,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="AlphaNum\Refactored\" />
     <Folder Include="GildedRose\Refactored\" />
     <Folder Include="Snippets\" />
   </ItemGroup>
