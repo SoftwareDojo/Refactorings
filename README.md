@@ -1,6 +1,4 @@
-# Refactorings
-
-Refactoring exercises for C#!
+# C# refactoring exercises
 
 # Catalogue
 * Fizz Buzz
