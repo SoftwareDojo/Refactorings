@@ -68,7 +68,7 @@ namespace CSharpRefactorings.Yatzy.Refactored
             CheckDice(dice);
 
             var sum = 0;
-            for (int i = s_MaxValue; i >= s_MinValue; i--)
+            for (var i = s_MaxValue; i >= s_MinValue; i--)
             {
                 if (DiceCount(dice, i) < 2) continue;
                 if (sum == 0) sum = 2*i;
@@ -94,7 +94,7 @@ namespace CSharpRefactorings.Yatzy.Refactored
         {
             CheckDice(dice);
 
-            for (int i = s_MinValue; i < s_MaxValue; i++)
+            for (var i = s_MinValue; i < s_MaxValue; i++)
             {
                 if (DiceCount(dice, i) != 1) return 0;
             }
@@ -106,7 +106,7 @@ namespace CSharpRefactorings.Yatzy.Refactored
         {
             CheckDice(dice);
 
-            for (int i = s_MaxValue; i > s_MinValue; i--)
+            for (var i = s_MaxValue; i > s_MinValue; i--)
             {
                 if (DiceCount(dice, i) != 1) return 0;
             }
@@ -121,7 +121,7 @@ namespace CSharpRefactorings.Yatzy.Refactored
             var threeOfAKind = MaxDiceCount(dice, 3);
             if (threeOfAKind == 0) return 0;
 
-            for (int i = s_MaxValue; i >= s_MinValue; i--)
+            for (var i = s_MaxValue; i >= s_MinValue; i--)
             {
                 if (i == threeOfAKind) continue;
                 if (DiceCount(dice, i) == 2) return (2*i) + (3*threeOfAKind);
@@ -132,7 +132,7 @@ namespace CSharpRefactorings.Yatzy.Refactored
 
         private static int MaxDiceCount(int[] dice, int minCount)
         {
-            for (int i = s_MaxValue; i >= s_MinValue; i--)
+            for (var i = s_MaxValue; i >= s_MinValue; i--)
             {
                 if (DiceCount(dice, i) >= minCount) return i;
             }

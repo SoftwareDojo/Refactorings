@@ -19,7 +19,7 @@
         {
             m_Ui.PrintStart();
 
-            int moveCount = 0;
+            var moveCount = 0;
             m_IsY = true;
 
             while (true)
@@ -66,7 +66,7 @@
 
         private bool CheckWin()
         {
-            char player = GetCurrentPlayer();
+            var player = GetCurrentPlayer();
 
             if (AreEqual(player, 0, 1, 2)) return true;
             if (AreEqual(player, 3, 4, 5)) return true;
@@ -87,8 +87,7 @@
 
         private char GetCurrentPlayer()
         {
-            if (m_IsY) return s_X;
-            return s_Y;
+            return m_IsY ? s_X : s_Y;
         }
     }
 }

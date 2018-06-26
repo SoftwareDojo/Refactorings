@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using CSharpRefactorings.AlphaNum.Original;
 using NUnit.Framework;
-using NUnit.Framework.Compatibility;
 
 namespace CSharpRefactoringTests.AlphaNum.Original
 {

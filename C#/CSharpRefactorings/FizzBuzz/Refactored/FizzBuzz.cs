@@ -8,9 +8,7 @@ namespace CSharpRefactorings.FizzBuzz.Refactored
 
         public FizzBuzz()
         {
-            m_Mapping = new Dictionary<int, string>();
-            m_Mapping.Add(3, "Fizz");
-            m_Mapping.Add(5, "Buzz");
+            m_Mapping = new Dictionary<int, string> {{3, "Fizz"}, {5, "Buzz"}};
         }
 
         public string PrintFizzBuzz(int number)
@@ -25,7 +23,7 @@ namespace CSharpRefactorings.FizzBuzz.Refactored
 
         private string Range(int count)
         {
-            string[] results = new string[100];
+            var results = new string[count];
 
             for (var i = 1; i <= count; i++)
             {

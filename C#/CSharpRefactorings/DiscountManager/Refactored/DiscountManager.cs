@@ -15,13 +15,14 @@ namespace CSharpRefactorings.DiscountManager.Refactored
         private readonly int m_MaxLoyaltyDiscount;
         private readonly IDictionary<Customer, decimal> m_CustomerDiscounts;
 
-        public DiscountManager() : this(new Dictionary<Customer, decimal>
-        {
-            {Customer.NotRegistered, 0},
-            {Customer.SimpleCustomer, 0.1m},
-            {Customer.ValuableCustomer, 0.3m},
-            {Customer.MostValuableCustomer, 0.5m}
-        }, 5)
+        public DiscountManager() : this(
+            new Dictionary<Customer, decimal>
+            {
+                {Customer.NotRegistered, 0},
+                {Customer.SimpleCustomer, 0.1m},
+                {Customer.ValuableCustomer, 0.3m},
+                {Customer.MostValuableCustomer, 0.5m}
+            }, 5)
         {
         }
 

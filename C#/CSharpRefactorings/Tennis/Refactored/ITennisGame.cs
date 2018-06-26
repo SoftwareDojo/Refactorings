@@ -4,6 +4,5 @@
     {
         void WonPoint(string playerName);
         string GetScore();
-
     }
 }
