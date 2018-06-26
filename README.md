@@ -1,6 +1,5 @@
-# C# refactoring exercises
+# C# refactoring and unit test exercises
 
-# Catalogue
 * [Fizz Buzz](/C%23/CSharpRefactorings/FizzBuzz/Original)
 * [Parrot](/C%23/CSharpRefactorings/Parrot/Original)
 * [Tennis](/C%23/CSharpRefactorings/Tennis/Original)
